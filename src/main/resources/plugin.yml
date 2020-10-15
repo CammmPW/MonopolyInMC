@@ -1,0 +1,22 @@
+name: Monopoly
+author: Kuxum
+main: org.dicemc.monopoly.Main
+version: 1.0-SNAPSHOT
+api-version: 1.13
+
+commands:
+  mineopoly:
+    description: Mineopoly player commands
+    aliases: [mgame, mpoly, mg, m]
+  mproperty:
+    description: Mineopoly property commands
+    aliases: [mpolyproperty, mpolyprop, mpolyp, property, mprop, prop, mp, p]
+  mtrade:
+    description: Mineopoly Trading commands
+    aliases: [mpolytrade, mpolyt, trade, mt, t]
+  mjail:
+    description: Mineopoly jail commands
+    aliases: [mpolyjail, mpolyj, jail, mj,  j]
+  mvote:
+    description: Vote to end or continue the game
+    aliases: [mpolyvote, mpolyv, vote, mv, v]
